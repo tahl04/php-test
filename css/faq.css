@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*FAQ 공통*/
+#faq_box{width: 1000px; margin: 0 auto; padding: 40px 0;}
+
+#faq_box h2{border-bottom: 1px solid #ccc; font-size: 20px; color:#555; padding: 20px 0;}
+
+#faq_box .buttons{padding: 20px 0; display: flex; justify-content: flex-end; flex-wrap: wrap;}
+
+#faq_box .buttons li{margin: 0 5px;}
+
+#faq_box .buttons li button{padding: 10px 20px; font-size: 16px; border:1px solid #21bda1; color:#21bda1; border-radius:4px; cursor: pointer; background-color: #fff;}
+
+#faq_box .buttons li:hover button{background-color: #21bda1; color:#fff;}
+
+
+/*FAQ 작성하기 폼*/
+#faq_box #faq_form{border-bottom: 1px solid #ccc;}
+#faq_box #faq_form li{padding: 10px 0; display: flex; flex-wrap: wrap;}
+#faq_box #faq_form li .label_box{width: 160px; padding: 0 10px;}
+#faq_box #faq_form li .label_box label{width: 100%; line-height: 40px; font-size: 16px; font-weight: 500; color:#777;}
+
+#faq_box #faq_form li .input_box{width: calc(100% - 160px); padding: 0 10px; color:#777;}
+
+#faq_box #faq_form li .input_box p{line-height: 40px;}
+
+#faq_box #faq_form li .input_box input{width: 100%; border:none; border-bottom: 1px solid #aaa; line-height: 39px; padding: 0 10px; color:#777;}
+#faq_box #faq_form li .input_box textarea{width: 100%; height: 200px; resize: none; padding: 8px 10px; border: 1px solid #aaa; border-radius:4px; color:#777;}
+
+
+/*FAQ 리스트*/
+#faq_box .faq_list{border-bottom: 1px solid #ccc; padding: 20px 0;}
+
+#faq_box .faq_list .list_detail{margin-bottom: 20px;}
+
+#faq_box .faq_list .list_detail .question{height: 40px; padding: 0 20px 0 40px; display: flex; justify-content: space-between; align-items: center; background-color: #cec; position: relative;}
+#faq_box .faq_list .list_detail .question:before{content:""; position: absolute; width: 40px; height: 40px; background-image: url(../img/q_mark.svg); top:0; left: 0; background-size: auto 60%; background-position: 50% 50%; display: block; background-repeat: no-repeat;}
+
+#faq_box .faq_list .list_detail .question h3{font-size: 17px; color:#555;}
+#faq_box .faq_list .list_detail .question span{color:#555; cursor: pointer;}
+
+#faq_box .faq_list .list_detail .answer{padding: 10px 20px 10px 40px; color:#777; font-size: 14px; background-color: #efe; display: none;}
+
+
+
+
+
